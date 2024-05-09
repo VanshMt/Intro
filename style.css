@@ -207,7 +207,7 @@ a.nav-link{
 	border-radius:10px 10px 0px 0px;
 }
 
-.card .work-content{
+.card .work-content.responsive{
 	text-align: center;
 	padding-top: 0.5px;
 	font-size: 100%;
