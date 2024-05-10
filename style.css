@@ -184,7 +184,7 @@ a.nav-link{
 
 .work{
 	display: flex; 
-	flex: 1;
+	flex: auto;
     flex-wrap: wrap;
     justify-content:center;
 	align-items: center;
@@ -195,8 +195,8 @@ a.nav-link{
 	display: flex;
 	flex-direction: column;
 	margin: 20px;
-	width: 800px;
-	height:550px;
+	width: auto;
+	height:auto;
 	border-radius:12px;
     background:var(--main-decor-color);
 }
@@ -207,7 +207,7 @@ a.nav-link{
 	border-radius:10px 10px 0px 0px;
 }
 
-.card .work-content.responsive{
+.card .work-content{
 	text-align: center;
 	padding-top: 0.5px;
 	font-size: 100%;
